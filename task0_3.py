@@ -1,4 +1,4 @@
 def Hello():
-    name = input("What is your name?: ")
+    name = ("Brian")
     print("Hello " + name +"!")
 Hello()

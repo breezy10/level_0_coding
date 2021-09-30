@@ -1,5 +1,5 @@
 def timeconverter():
-    time = float(input("Enter a number:"))
+    time = float(17)
     hour = time // 60
     time %= 60
     minute = time

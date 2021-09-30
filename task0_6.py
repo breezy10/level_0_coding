@@ -1,7 +1,7 @@
 def maximum():
-    a = float(input("Enter 1st number: "))
-    b = float(input("Enter 2nd number: "))
-    c = float(input("Enter 3rd number: "))
+    a = float(12)
+    b = float(9)
+    c = float(92)
     print("Maximum is ", end = '')
     if b <= a >= c:
         print(a)

@@ -1,5 +1,5 @@
 def vowelfinder():
-    word = input(" Enter a word: ")
+    word = ("beautiful")
     string = word.lower()
     list = ["a", "e", "i", "o", "u"]
     for char in string:

@@ -1,7 +1,7 @@
 def area_of_triangle():
-    a = float(input("Enter values for 1st side: "))
-    b = float(input("Enter values for 2nd side: "))
-    c = float(input("Enter values for 3rd side: "))
+    a = float(15)
+    b = float(11)
+    c = float(8)
 
     p = (a + b + c)
     s = p / 2 
