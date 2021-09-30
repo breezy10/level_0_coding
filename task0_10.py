@@ -1,8 +1,5 @@
 def common_char():
-    word1 = ("entertainment")
-    word2 = ("forums")
-    w1 = set(word1)
-    w2 = set(word2)
-    lst = w1 & w2
-    print(lst)
+    word1 = "entertainMent".lower()
+    word2 = "forums".lower()
+    print("Common Letters:", ', '.join(set.intersection(set(word1), set(word2))))
 common_char()
