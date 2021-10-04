@@ -1,13 +1,18 @@
-def area_of_triangle():
-    a = float(15)
-    b = float(11)
-    c = float(8)
+# Python Program to find Area of a Triangle using Functions
+import math
 
-    p = (a + b + c)
-    s = p / 2 
-    area = (s*(s-a)*(s-b)*(s-c))** 0.5
+def Area_of_triangle(a, b, c):
+# calculate the semi-perimeter
+    s = (a + b + c) / 2
 
-    print("The area of the Triangle is:", area)
-    print("The Perimeter of the shape is:", p)
-    print("The semiperimeter of the triangle is:", s)
-area_of_triangle()
+# calculate the area
+    area = math.sqrt((s*(s-a)*(s-b)*(s-c)))
+
+    print(area)
+
+#input of a sides    
+a = float(input('enter a: '))
+b = float(input('enter b: '))
+c = float(input('enter c: '))
+
+Area_of_triangle(a,b,c)

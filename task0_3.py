@@ -1,4 +1,4 @@
-def Hello():
-    name = ("Brian")
-    print("Hello " + name +"!")
-Hello()
+def Hello(name):
+    print("Hello", name +"!")
+
+Hello("Tshepo")

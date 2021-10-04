@@ -10,9 +10,9 @@ def convert(time_):
         elif mins == '0' and hrs > '1':
             print("%s hours "% hrs)
         elif hrs == '1' and mins > '1':
-            print("%s hour %s minutes"% (hrs, minutes))
+            print("%s hour, %s minutes"% (hrs, minutes))
         else:
-            print("%s hours %s minutes"% (hrs, minutes))
+            print("%s hours, %s minutes"% (hrs, minutes))
     elif time_ < 60:
         if minutes_ == 1:
             print("%s minute"% minutes_)
@@ -20,5 +20,5 @@ def convert(time_):
             print("%s minutes"% minutes_)
     else:
         print("Invalid time format")
-convert(70)
+convert(11)
 

@@ -1,12 +1,10 @@
-def maximum():
-    a = float(12)
-    b = float(9)
-    c = float(92)
+def maximum(*args):
     print("Maximum is ", end = '')
-    if b <= a >= c:
-        print(a)
-    elif a <= b >= c:
-        print(b)
-    elif a <= c >= b:
-        print(c)
+    if args[1] <= args[0] >= args[2]:
+        print(args[0])
+    elif args[0] <= args[1] >= args[2]:
+        print(args[1])
+    elif args[0] <= args[2] >= args[1]:
+        print(args[2])
+   
 maximum()
