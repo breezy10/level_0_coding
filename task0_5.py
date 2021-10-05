@@ -1,4 +1,3 @@
-# Python Program to find Area of a Triangle using Functions
 import math
 
 def Area_of_triangle(a, b, c):
@@ -10,9 +9,4 @@ def Area_of_triangle(a, b, c):
 
     print(area)
 
-#input of a sides    
-a = float(input('enter a: '))
-b = float(input('enter b: '))
-c = float(input('enter c: '))
-
-Area_of_triangle(a,b,c)
+Area_of_triangle(2,2,2)
